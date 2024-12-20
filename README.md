@@ -63,6 +63,47 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
+**### Challenges Faced and Resolutions**
+
+    Dynamic Progress Bar State:
+        Challenge: Ensuring the progress bar dynamically reflects the current step.
+        Resolution: Used conditional rendering to set the active and completed states for the steps.
+
+    Complex Layout Alignment:
+        Challenge: Aligning multiple sections in the form to match the design precisely.
+        Resolution: Utilized CSS Flexbox and Grid for fine-grained control over alignment and spacing.
+
+    Responsive Design:
+        Challenge: Making the layout responsive for smaller screens while preserving the design.
+        Resolution: Used media queries to adjust font sizes, padding, and layout styles for smaller devices.
+
+    File Upload Functionality:
+        Challenge: Simulating file upload functionality for documentation sections.
+        Resolution: Added upload buttons with labels to mimic the expected behavior and planned integration with file input elements in the future.
+
+    Styling Consistency:
+        Challenge: Maintaining uniform styling across all components (e.g., colors, fonts, shadows).
+        Resolution: Used a centralized CSS file with reusable utility classes for styling consistency.
+
+**### Assumptions Made**
+
+    Mock Data:
+        The form fields (e.g., "Claim Value," "Place," "Language") are static and don't fetch data from an API for now.
+
+    File Uploads:
+        The file upload functionality is a placeholder for actual upload functionality that would connect to a backend or cloud storage.
+
+    Progress Bar States:
+        Progress bar steps were assumed to represent fixed stages, with the "04 Parties" step as the current active stage.
+
+    Responsive Layout:
+        Assumed the layout should support modern web browsers and screen sizes, but specific breakpoints for mobile or tablet views were not provided.
+
+    Interactivity:
+        Limited interactivity was implemented, assuming advanced features (e.g., form validation, API integration) would be added later.
+
+
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
